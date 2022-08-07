@@ -1,9 +1,9 @@
 # .github/workflows/git-sync.yml
 
-name: git-sync
+name: ESaaS2-2022-Group5
 on:
   schedule:
-  - cron:  "* * * * *"
+  - cron:  "*/5 * * * *"
 jobs:
   git-sync:
     runs-on: ubuntu-latest
