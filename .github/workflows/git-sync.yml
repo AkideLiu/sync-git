@@ -16,7 +16,7 @@ jobs:
         uses: wei/git-sync@v3
         with:
           source_repo: "https://AkideLiu:$CS_GITHUB_TOKEN@github.cs.adelaide.edu.au:a1781032/ESaaS2-2022-Group5.git"
-          source_branch: "refs/remotes/source/*"
+          source_branch: "refs/*"
           destination_repo: "https://AkideLiu:$GITLAB_TOKEN@gitlab.dev.vmv.re/essi/ESaaS2-2022-Group5.git"
-          destination_branch: "refs/heads/*"
+          destination_branch: "refs/*"
 
