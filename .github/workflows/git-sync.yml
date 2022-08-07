@@ -19,3 +19,4 @@ jobs:
           source_branch: "refs/remotes/source/*"
           destination_repo: "https://AkideLiu:$GITLAB_TOKEN@gitlab.dev.vmv.re/essi/ESaaS2-2022-Group5.git"
           destination_branch: "refs/heads/*"
+
