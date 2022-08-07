@@ -2,8 +2,12 @@
 
 name: ESaaS2-2022-Group5
 on:
+  push:
+    branches:
+      - *
   schedule:
   - cron:  "*/5 * * * *"
+
 jobs:
   git-sync:
     runs-on: ubuntu-latest
